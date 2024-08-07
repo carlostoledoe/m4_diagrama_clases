@@ -1,5 +1,6 @@
 from encuesta import Encuesta, EncuestaLimitadaEdad, EncuestaLimitadaRegion
 from listado_respuestas import ListadoRespuestas
+from typing import Union
 
 class Usuario():
     def __init__(self, correo: str, edad: int, region: int):
